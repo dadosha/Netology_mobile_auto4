@@ -26,7 +26,6 @@ public class MainActivityTest {
             new ActivityScenarioRule<>(MainActivity.class);
 
     String result = "This is home fragment";
-    String invalidResult = "This is home fragment111";
 
     @Test
     public void mainActivityTest() {
